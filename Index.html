@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#09051a">
+  <title>HASA MD • Anime Pairing</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div class="stars"></div>
+  <div class="orb orb-a"></div>
+  <div class="orb orb-b"></div>
+
+  <main class="app">
+    <header class="hero">
+      <div class="logo-wrap">
+        <div class="logo">H</div>
+        <span class="status-dot"></span>
+      </div>
+      <div>
+        <p class="eyebrow">WHATSAPP AUTOMATION</p>
+        <h1>HASA <span>MD</span></h1>
+        <p class="sub">Anime Pairing Portal</p>
+      </div>
+    </header>
+
+    <section class="anime-banner">
+      <div class="character c1">✦</div>
+      <div class="character c2">✧</div>
+      <div class="banner-text">
+        <b>CONNECT YOUR WORLD</b>
+        <small>Pair HASA MD in seconds</small>
+      </div>
+      <div class="sparkle s1">✦</div>
+      <div class="sparkle s2">✦</div>
+      <div class="sparkle s3">✧</div>
+    </section>
+
+    <section class="card">
+      <div class="card-title">
+        <span class="icon">📱</span>
+        <div>
+          <h2>Pair with Phone</h2>
+          <p>Enter your WhatsApp number with country code</p>
+        </div>
+      </div>
+
+      <label for="phone">PHONE NUMBER</label>
+      <div class="phone-row">
+        <input id="phone" inputmode="numeric" autocomplete="tel"
+               placeholder="9477XXXXXXX" maxlength="15">
+        <button id="pairBtn">PAIR</button>
+      </div>
+
+      <div id="pairResult" class="result hidden"></div>
+      <p class="hint">Example: <b>9477XXXXXXX</b> — no + or spaces</p>
+    </section>
+
+    <section class="card qr-card">
+      <div class="card-title">
+        <span class="icon">▣</span>
+        <div>
+          <h2>QR Connect</h2>
+          <p>Use WhatsApp Linked Devices</p>
+        </div>
+      </div>
+
+      <div id="qrBox" class="qr-box">
+        <div class="qr-placeholder">
+          <div class="scan"></div>
+          <span>QR READY AREA</span>
+          <small>Press the button below</small>
+        </div>
+      </div>
+      <button id="qrBtn" class="secondary">GENERATE QR</button>
+      <div id="qrResult" class="result hidden"></div>
+    </section>
+
+    <section class="steps">
+      <div><b>01</b><span>Enter your number</span></div>
+      <div><b>02</b><span>Get pairing code</span></div>
+      <div><b>03</b><span>Link in WhatsApp</span></div>
+    </section>
+
+    <footer>
+      <span>HASA MD</span>
+      <span>•</span>
+      <span>Anime Pairing Portal</span>
+    </footer>
+  </main>
+
+  <script src="assets/config.js"></script>
+  <script src="assets/app.js"></script>
+</body>cd
+  </html>
